@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+  <html>
+          <head>
+                     <meta charset="UTF-8">
+                     <title>Table Assignment</title>
+                     <style>
+                         table{
+                             width:650px;
+                              margin-right: auto;
+                              margin-left: auto;
+                              border-collapse: collapse;
+                              text-align: left;
+                         }
+                         
+                         tr,td{
+                                border: 1px solid black;
+                                border-collapse: collapse;
+                                
+                                font-size: 24px;
+                                padding:16px
+                         }
+
+                         .color{
+                             background-color: aquamarine;
+                         }
+
+                         #heading{
+                                font-weight: 700;
+                            
+                         }
+
+                     </style>
+          </head>
+                                            
+           <body>
+               <table>
+                         <tr id="heading"> 
+                             <td colspan="3">Invoice #12345ABC</td> 
+                             <td>18 Jul 2019</td>
+
+                         </tr>
+                    <tr >
+                        <td colspan="2"><b>Pay To:</b> </br>
+                         The Tech park </br>
+                           123 Willowstreet </br>
+                        Boulevard,LA-567892 </td>
+                    
+                    
+                        <td colspan="2"><b>Customer:</b> </br>
+                             John Lark </br>
+                            Dummy Apartments </br>
+                            276 Main Street</br>
+                            Boulevard,LA-567892     </td>
+                    </tr>
+
+
+                    <tr class="color" id="heading">
+                        <td>Name/Description</td>
+                        <td>Qty.</td>
+                        <td>MRP</td>
+                        <td>Amount</td>
+                    </tr>
+                    <tr>
+                        <td>Biryani</td>
+                        <td>3</td>
+                        <td>400</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>                        
+                        <td>Chocolate Shake</td>
+                        <td>3</td>
+                        <td>200</td>
+                        <td>600</td>
+                    </tr>
+                    <tr> 
+                        <td colspan="3" class="color" id="heading">Subtotal</td>
+                        <td>1800</td>
+                    </tr>
+                    <tr> 
+                        <td colspan="2" id="heading" class="color">Tax</td>
+                        <td>10%</td>
+                        <td>180</td>
+                    </tr>
+                
+                    <tr > 
+                        <td class="color" colspan="3" id="heading">Grand Total :</td>
+                        <td>Rs.1620</td>
+                    </tr>
+                </table>
+                </body>
+  </html>

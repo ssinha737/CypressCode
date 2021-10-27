@@ -1,0 +1,24 @@
+{
+  "projectId": "86wtbb",
+  "reporter" : "./node_modules/mochawesome/src/mochawesome.js",
+  "env": {
+    "produrl": "https://sports.sportingbet.com",
+    "betaurl": "https://beta-sports.sportingbet.com",
+    "versionurl" :"https://sports-servicestatus.bwin.corp/#environment:prod/service:MS2/"
+  },
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }, "screenshotsFolder" : "cypress/results",
+     "defaultCommandTimeout":8000,
+       "execTimeout":10000,
+       "video" :false,
+       "stopOnFirstFailure": false
+
+
+}  
+ 
+  
+

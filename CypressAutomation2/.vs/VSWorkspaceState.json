@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cypress",
+    "\\cypress\\fixtures",
+    "\\cypress\\integration",
+    "\\cypress\\integration\\examples",
+    "\\cypress\\integration\\examples\\html learn",
+    "\\cypress\\integration\\examples\\html learn\\form",
+    "\\mochawesome-report",
+    "\\reports"
+  ],
+  "SelectedNode": "\\cypress\\integration\\examples\\html learn\\form\\form.htm",
+  "PreviewInSolutionExplorer": false
+}

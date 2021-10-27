@@ -1,0 +1,56 @@
+<html>
+     <head>
+    <title> My form </title>
+    <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+          <form name="employment" method="GET" action="send.php">
+                   <h1>Employment Application</h1>
+                   <div>
+                   <p><label for="fname">First Name</label></p>
+                   <input type="text" id="fname" name="fname" maxlength="50">
+                   <p><label for="lName">Last Name</label></p>
+                   <input type="text" id="lname" name="lname" maxlength="50">
+                   <p><label for="position">Position</label></p>
+                   <select id ="position"> 
+                       <option value="AC">Accountant</option>
+                       <option value="ER">Engineer</option>
+                       <option value="DR">Doctor</option>
+                       <option value="FT">Flight</option>
+                   </select>
+                   <p><label for="experience">Experience Level</label> </p>
+                   <select id ="exp"> 
+                       <option value="EL">Entry level</option>
+                       <option value="IE">Intermediate</option>
+                       <option value="EX">Experienced</option>
+                   </select>
+                   <p><label for="Job type" >Job type</label>
+                   <input type="checkbox" name="ft" class="checkbox"> Full-Time
+                   <input type="checkbox" name="pt" > Part-Time
+                   <input type="checkbox" name="ct" > Contract </p>
+                   <p><label for="employmentstatus" >Employment status</label>
+                    <input type="radio"  name="estatus" value="employed" > Employed
+                    <input type="radio" name="estatus" value="Unemployed" > Unemployed                    
+                    <input type="radio" name="estatus" value="Student" > Student </p>
+                    <p><label for="addcomments">Add comments</labelname>                     
+                   <textarea name="addcomments" id="addcomments" cols="30" rows="10"></textarea></p>
+                   <p><label for="T&C" >I agree to the terms and conditions </label>
+                    <input type="checkbox"  name="checkbox4"> </p>
+                   <p><input type="submit" name="submit" value="SUBMIT" > 
+                     <input type="reset" name="reset" value="Reset">
+                </p>
+                </div>
+          </form>
+<!-- GET requests data from a specified source POST submits data to be processed to a specified source
+    GET:Can be cached
+        Remain in browser history
+        Should only be used to retrieve data
+        Have length restrictions
+        Can be bookmarked
+        Should Not be used for sensitive data
+    POST:No restrictions on data length
+         Cannot be bookamarked
+         Donot remain browser in browser history
+         Requests are never cached
+-->
+    </body>

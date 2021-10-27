@@ -1,0 +1,37 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "test1": "cypress open",
+    "report:merge": "mochawesome-merge --reportDir cypress/results/json > cypress /results/mochawesome-bundle.json",
+    "report:generate": "marge cypress/results/mochawesome-bundle.json -o cypress/reports/html",
+    "report:copyScreenshots": "cp -r cypress/screenshots cypress/results/html/screenshots",
+    "precy:run": "rm -rf cypress/screenshots cypress/results cypress/reports"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "Shekhar Sinha",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.2.1",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "keywords": [],
+  "description": ""
+}

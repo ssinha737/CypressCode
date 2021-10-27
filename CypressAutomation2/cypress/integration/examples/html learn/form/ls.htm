@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"> </p>
+        <p id="demo1"> </p>
+        <p id="demo2"> </p>
+        <p id="demo3"> </p>
+        <p id="demo4"> </p>
+        <p id="demo5"> </p>
+        <p id="demo6"> </p>
+        <p id="demo7"> </p>
+        <p id="demo8"> </p>
+        <p id="demo9"> </p>
+        <p id="demo10"> </p>
+        <p id="demo11"> </p>
+        <p id="demo12"> </p>
+
+        
+        
+
+         <script>
+               var car = {type:"Acura" ,model:"Integra",color:"white"};
+               document.getElementById("demo").innerHTML=car.type
+
+               var studentName1="John Smith"
+               var studentName2 = 'Roy Smith'
+               document.getElementById("demo").innerHTML= studentName1+ "<br>"+studentName2
+               var y ="We are the best \"players\" in the world. "
+               document.getElementById("demo1").innerHTML= y;
+               document.getElementById("demo2").innerHTML= Math.random();
+               document.getElementById("demo3").innerHTML= Math.min(45,56,32,76,1);
+               document.getElementById("demo4").innerHTML= Math.max(23,100,90,99);
+               document.getElementById("demo5").innerHTML= Math.round(23.156);
+               document.getElementById("demo6").innerHTML= Math.ceil(23.156);
+               document.getElementById("demo7").innerHTML= Math.floor(23.156);
+               var res = ["car","bus","train"]
+               //res.pop();
+               //res.shift();
+               res.splice(3,0,"Cycle","Truck")
+               res[2]= "bicycle";
+               delete res[0];
+                res.push("aeroplane");
+                res.unshift("plane");
+                res.reverse();
+                res.sort();
+               document.getElementById("demo8").innerHTML=res[0]
+            
+               document.getElementById("demo9").innerHTML=res.toString()
+               document.getElementById("demo9").innerHTML=res.join("*")
+                var txt="";
+                var person={fname:"John",lname:"Smith",age:30}
+                var x;
+                for(x in person){
+                    txt += person[x] + " ";
+                }
+                document.getElementById("demo11").innerHTML =txt;
+                var i=0;
+                while(i<40){
+                   
+                    document.write("</br>")
+                    document.write(i); 
+                    i++
+                }
+                   
+                function myfunction(a,b){
+                    return a*b;
+                }
+           document.getElementById('demo10').innerHTML=myfunction(2,4)     
+         </script>
+         <!-- <br>
+           <button type="button"  value="calculate" onclick="myfunction(2,3)"> calculate me</button>""
+         -->
+         <!-- JS Events
+         -Mouse clicks
+         -Mouse Overs
+         -Mouse Out
+         -Key Down
+         -Document Load  -->
+    </body>
+</html>

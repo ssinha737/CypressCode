@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+       <head>
+           <title>My first JS App</title>
+             <script type="text/javascript" src="dogage.js">
+            
+            
+            </script>
+       </head>
+ <body>
+          <p id="math"></p>
+          <p id ="example"> </p>
+          <script type="text/javascript">document.getElementById('math').innerHTML = 6+3
+          var x=5
+          var y=10
+          var z= x+y
+          document.write(z)
+          var numdata = 30+ "data" ;
+          document.getElementById('example').innerHTML=numdata;
+
+          
+           
+        </script>
+        <br> <br> <br>
+         <b>Find out your age in dog years</b>
+         <form method="POST">
+          <table>
+              <tr>
+                  <td> Enter your age</td>
+                  <td><input type="text" name="myage" size="15"></td>
+              </tr>
+
+              <tr>
+                <td><input type="button" value="calculate" onclick="cyears(this.form)"> </td>
+            </tr>
+
+            <tr>
+                <td>Your age in dog years is :</td>
+                <td><input type="text" name="dogage" size="15"></td>
+            </tr>
+          </table>
+
+         </form>
+          
+ </body>
+ </html>

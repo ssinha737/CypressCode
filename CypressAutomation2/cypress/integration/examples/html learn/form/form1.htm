@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title></title>
+         <style>
+             fieldset{
+                 text-align: center;
+                                color: red;
+                
+             }
+
+             form{
+                 background-color:yellow;
+             }
+         </style>
+     </head>
+      <body>
+        <form action="/action_page.php">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male"><br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female"><br>
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other"><br><br>
+            <input type="submit"  value="register">
+            <input type="button" value="Register">
+            <label for ="Password">Password</label>
+            <input type="password" name="Password" required autofocus>
+            <label for ="Password">Confirm Password</label>
+            <input type="password" name="Password" disabled>
+            
+            <label for ="Name">Username</label>
+            <input type="text" name="Uname" readonly>
+            <label for ="Firstname">First name</label>
+            <input type="text" name="Fname" >
+            <label for ="Surname">Surname</label>
+            <input type="text" name="surname" autocomplete="address-level1" >
+            <fieldset>
+                     <legend>
+                        Fieldset form
+                     </legend>
+                        <label for ="Name"> Name</label>
+                       <p> <input type="text" name ="uname" ></p>
+                        
+                        <label for ="fName">First Name</label>
+                    <p>  <input type="text" name ="uname" ></p>
+                        
+                        <label for ="sName"> Sur Name</label>
+                    <p><input type="text" name ="uname" ></p>
+                    <audio controls autoplay>
+                        <source src="testaudio.mp3" type="audio/mp3"></source>
+                    </audio>
+                        
+
+            </fieldset>     
+
+          </form>
+      </body>
+</html>

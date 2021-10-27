@@ -1,0 +1,105 @@
+#nav{
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    text-align: center;
+    padding:24px ; 
+    font-family: Verdana, Geneva, sans-serif;
+   
+}
+
+body{
+    margin: 0%;
+    background-color: white;
+}
+
+.nav{
+    padding-right: 24px;
+         
+}
+
+#table1{
+    width:100%;
+        border-bottom: none;
+   }
+
+
+#table2{
+    width:100%;
+    margin: auto;
+    
+}
+
+#table3{
+    width:100%;
+    margin: auto;
+    font-family: Verdana, Geneva, sans-serif;
+    
+}
+
+
+
+#promo{
+    
+    background-color: LIGHTgray;
+    padding-bottom:24px ;
+    padding-top:24px ;
+    line-height: 5px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: left;
+   }
+
+.Entain{
+    width: 780px;
+    height: 300px;
+     
+}
+
+.image{
+    padding-top: 8px;
+    text-align: center;
+     
+}
+
+.imagetext{
+   text-align: center;
+   line-height: 5px;
+   font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+ 
+     font-weight: 700;
+   }
+
+a{
+    
+    background-color: #ff9900;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+.newsletter{
+    text-align: center;
+}
+
+
+.tr1{
+    text-align: center;
+    width: 100%;
+}
+
+.contact{
+    
+    text-align: center;
+    padding-bottom:50px ;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+
